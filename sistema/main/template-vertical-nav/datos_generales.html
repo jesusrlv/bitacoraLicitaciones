@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Scanner</title>
+    <title>Alta licitación</title>
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="../../img/filetype-pdf.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../img/logo_build.png">
     <link href="../css/style.css" rel="stylesheet">
     <script src="../js/modernizr-3.6.0.min.js"></script>
 </head>
@@ -22,7 +22,7 @@
         <!-- header -->
         <div class="header">
             <div class="nav-header">
-                <div class="brand-logo"><a href="index.html"><b><img src="../../img/filetype-pdf.png" alt=""> </b></a>
+                <div class="brand-logo"><a href="index.html"><b><img src="../../img/logo_build.png" alt=""> </b></a>
                 </div>
                 <div class="nav-control">
                     <div class="hamburger"><span class="line"></span> <span class="line"></span> <span class="line"></span>
@@ -236,13 +236,13 @@
 
                     <li class="nav-label">Componentes</li>
                     
-                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-chart-bar"></i> <span class="nav-text">Dispositivo</span> <span class="badge badge-danger nav-badge">XR</span></a>
+                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-chart-bar"></i> <span class="nav-text">Licitacón</span> <span class="badge badge-danger nav-badge">XR</span></a>
                         <ul aria-expanded="false">
-                            <li><a href="datos_generales.html">Agregar documento</a>
+                            <li><a href="datos_generales.html">Agregar licitación</a>
                             </li>
-                            <li><a href="editar_datos.html">Editar documento</a>
+                            <li><a href="editar_datos.html">Editar licitación</a>
                             </li>
-                            <li><a href="eliminar_datos.html">Eliminar documento</a>
+                            <li><a href="eliminar_datos.html">Eliminar licitación</a>
                             </li>
                             
                         </ul>
@@ -250,7 +250,7 @@
                     
                     <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-table-edit"></i> <span class="nav-text">Buscar</span></a>
                         <ul aria-expanded="false">
-                            <li><a href="buscar.html">Documento</a>
+                            <li><a href="buscar.html">Licitación</a>
                             </li>
                             <li><a href="buscar.html">Texto específico</a>
                             </li>
@@ -273,7 +273,7 @@
             <div class="container">
                 <div class="row page-titles">
                     <div class="col p-0">
-                        <h4>Buenos días, <span>Scanner</span></h4>
+                        <h4>Buenos días, <span>Bitácora de licitaciones</span></h4>
                     </div>
                     <div class="col p-0">
                         <ol class="breadcrumb">
@@ -291,11 +291,23 @@
                     <div class="col-xl-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Formulario alta de documento</h4>
+                                <h4 class="card-title">Formulario alta de licitación</h4>
                                 <div class="container">
                                     <input type="text" placeholder="Nombre" style="width: 50%;">
                                     <input type="text" placeholder="Descripción" style="width: 100%; margin-top: 3px;">
-                                    <input type="file" placeholder="Descripción" style="width: 100%; margin-top: 3px;">
+                                    <div class="input-group" style="margin-top: 15px; margin-bottom: 15px;">
+                                        <label for="" style="margin-right: 10px; margin-top: 5px;">Tipo de licitación</label>
+                                        <select name="" id="">
+                                            <option value="" selected>Selecciona ...</option>
+                                            <option value="1">Privada</option>
+                                            <option value="2">Pública</option>
+                                            <option value="3">Otro</option>
+                                        </select>
+                                    </div>
+                                    <input type="file" placeholder="Descripción" style="width: 100%; margin-top: 3px; margin-top: 15px;">
+                                    <input type="file" placeholder="Descripción" style="width: 100%; margin-top: 3px; margin-top: 15px;">
+                                    <input type="file" placeholder="Descripción" style="width: 100%; margin-top: 3px; margin-top: 15px;">
+                                    <input type="file" placeholder="Descripción" style="width: 100%; margin-top: 3px; margin-top: 15px; margin-bottom: 10px;">
                                     <button style="margin-top: 5px; background-color:rgb(39, 39, 193); color: aliceblue;padding: 10px; border-color: blue;border-radius: 5px;"> Registrar</button>
                                 </div>
                             </div>
@@ -389,7 +401,7 @@
                                         <table class="table table-xs">
                                             <thead>
                                                 <tr>
-                                                    <th>Archivos</th>
+                                                    <th>Licitación</th>
                                                     <th>Descargas</th>
                                                     
                                                     <th>Estatus</th>
